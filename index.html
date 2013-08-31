@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <link href="flat-ui.css" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
+  </head>
+  <body onload="init();">
+    <div class="navbar-inner">
+    <center><h1>Simple Todo <img src="Clipboard@2x.png" alt="Clipboard" height="50" width="50"> </h1>
+      <form type="post" onsubmit="addTodo(); return false;">
+      <input type="text" id="todo" name="todo" placeholder="What do you need to do?" style="width: 200px;">
+      <input type="submit" class="btn btn-block btn-success" value="Add Task">
+    </form>
+  </center>
+    <h3><ul id="todoItems"></ul></h3>
+    <center><h4>Click to Complete</h4></center>
+  </div></body></html>
